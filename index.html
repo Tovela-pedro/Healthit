@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+         <div class="logo">
+            <img src="img/logolight.png" alt="Logo">
+            <h3>Health<span>it</span></h3>
+        </div>
+                
+        <nav>
+            <svg class="close" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                <path d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7363 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V2ZM14.71 13.29C14.8037 13.383 14.8781 13.4936 14.9289 13.6154C14.9797 13.7373 15.0058 13.868 15.0058 14C15.0058 14.132 14.9797 14.2627 14.9289 14.3846C14.8781 14.5064 14.8037 14.617 14.71 14.71C14.617 14.8037 14.5064 14.8781 14.3846 14.9289C14.2627 14.9797 14.132 15.0058 14 15.0058C13.868 15.0058 13.7373 14.9797 13.6154 14.9289C13.4936 14.8781 13.383 14.8037 13.29 14.71L12 13.41L10.71 14.71C10.617 14.8037 10.5064 14.8781 10.3846 14.9289C10.2627 14.9797 10.132 15.0058 10 15.0058C9.86799 15.0058 9.73729 14.9797 9.61543 14.9289C9.49357 14.8781 9.38297 14.8037 9.29 14.71C9.19628 14.617 9.12188 14.5064 9.07111 14.3846C9.02034 14.2627 8.99421 14.132 8.99421 14C8.99421 13.868 9.02034 13.7373 9.07111 13.6154C9.12188 13.4936 9.19628 13.383 9.29 13.29L10.59 12L9.29 10.71C9.1017 10.5217 8.99591 10.2663 8.99591 10C8.99591 9.7337 9.1017 9.4783 9.29 9.29C9.47831 9.1017 9.7337 8.99591 10 8.99591C10.2663 8.99591 10.5217 9.1017 10.71 9.29L12 10.59L13.29 9.29C13.4783 9.1017 13.7337 8.99591 14 8.99591C14.2663 8.99591 14.5217 9.1017 14.71 9.29C14.8983 9.4783 15.0041 9.7337 15.0041 10C15.0041 10.2663 14.8983 10.5217 14.71 10.71L13.41 12L14.71 13.29Z" fill="black"/>
+
+            </svg> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">CONTACTo</a></li>
+            </ul>
+            
+        </nav>
+        <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+            
+            </svg>
+            <button>
+                Marcar Consulta
+            </button>
+             
+     </header>
+  
+         <section class="hero">
+                <div class="back">
+                </div>
+                <div class="clip">
+                    <img src="img/backw.jpg" alt="woman">
+                    <svg width="0" height="0">
+                
+                            <clipPath id="clippy" clipPathUnits="objectBoundingBox">
+                                <path d="M0.0130093 0.366775C0.0537667 0.496732 0.179832 0.576319 0.310228 0.563227C0.434486 0.554063 0.486122 0.601952 0.496545 0.712815C0.497858 0.732333 0.501481 0.752008 0.507594 0.771498C0.549233 0.904266 0.690617 0.97814 0.823384 0.936501C0.956152 0.894862 1.03003 0.753477 0.988387 0.62071C0.973883 0.574463 0.947277 0.535362 0.913148 0.5058C0.821185 0.422573 0.835633 0.366679 0.879047 0.31723C0.909922 0.283558 0.922505 0.234799 0.90785 0.188072C0.885976 0.118327 0.811705 0.0795201 0.74196 0.101394C0.721993 0.107656 0.704562 0.118212 0.690365 0.131727C0.642939 0.174494 0.585183 0.192827 0.493619 0.095101C0.422096 0.014468 0.307359 -0.0213339 0.197854 0.0130093C0.049121 0.0596555 -0.0336369 0.218042 0.0130093 0.366775Z" fill="#D8D9DC"/>
+                            </clipPath>
+                
+                    </svg>
+                </div>
+                <div class="content">
+                    <h1>Encontre a <span>Melhor</span> Solução para os seus Problemas</h1>
+                    <p> Atraves da escuta activa da psicologia criamos soluçoes de sucesso para os seus dilemas e negocios.</p>
+                </div>
+    
+            <div class="blob">
+                
+            </div>
+            
+         <article>
+            <a href="Form.html">
+                <span>Fale Conosco</span>
+                <div class="liquid"></div>
+            </a>
+            
+         </article>
+         <svg class="balls" width="186" height="179" viewBox="0 0 186 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M138 69C138 107.108 107.108 138 69 138C30.8924 138 0 107.108 0 69C0 30.8924 30.8924 0 69 0C107.108 0 138 30.8924 138 69Z" fill="#F5F3DE"/>
+            <path d="M177 124C177 154.376 152.376 179 122 179C91.6243 179 67 154.376 67 124C67 93.6243 91.6243 69 122 69C152.376 69 177 93.6243 177 124Z" fill="#F5F3DE"/>
+            <path d="M186 54.5C186 79.0767 166.077 99 141.5 99C116.923 99 97 79.0767 97 54.5C97 29.9233 116.923 10 141.5 10C166.077 10 186 29.9233 186 54.5Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M97.0009 54.7772C97.0917 69.3591 96.6173 71.9851 83.6867 84.54L175.248 110.23C170.736 92.781 171.697 90.2915 179.36 77.8851L97.0009 54.7772Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M130.977 11.2621C118.488 14.3016 116.536 15.1616 98.5218 6.63446L120.238 115.214C133.586 100.414 135.719 100.457 148.416 98.4592L130.977 11.2621Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M154.904 79.9284C142.308 70.5239 140.762 69.3063 135.424 50.3215L47.8751 134.687C66.6492 140.724 67.8087 142.314 76.7403 155.25L154.904 79.9284Z" fill="#F5F3DE"/>
+            </svg>
+         <svg class="balls2" width="186" height="179" viewBox="0 0 186 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M138 69C138 107.108 107.108 138 69 138C30.8924 138 0 107.108 0 69C0 30.8924 30.8924 0 69 0C107.108 0 138 30.8924 138 69Z" fill="#F5F3DE"/>
+            <path d="M177 124C177 154.376 152.376 179 122 179C91.6243 179 67 154.376 67 124C67 93.6243 91.6243 69 122 69C152.376 69 177 93.6243 177 124Z" fill="#F5F3DE"/>
+            <path d="M186 54.5C186 79.0767 166.077 99 141.5 99C116.923 99 97 79.0767 97 54.5C97 29.9233 116.923 10 141.5 10C166.077 10 186 29.9233 186 54.5Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M97.0009 54.7772C97.0917 69.3591 96.6173 71.9851 83.6867 84.54L175.248 110.23C170.736 92.781 171.697 90.2915 179.36 77.8851L97.0009 54.7772Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M130.977 11.2621C118.488 14.3016 116.536 15.1616 98.5218 6.63446L120.238 115.214C133.586 100.414 135.719 100.457 148.416 98.4592L130.977 11.2621Z" fill="#F5F3DE"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M154.904 79.9284C142.308 70.5239 140.762 69.3063 135.424 50.3215L47.8751 134.687C66.6492 140.724 67.8087 142.314 76.7403 155.25L154.904 79.9284Z" fill="#F5F3DE"/>
+            </svg>
+            
+         </section>
+    
+         
+         <section class="what">
+            <div class="content">
+                <h1>WHAT</h1>
+                <h2>O <span class="stroke">Qu</span>e <span>Nos</span> Fazemos?</h2>
+                <p>
+                    Somos uma clinica de aconselhamento psicologico, proporcionamos soluções para reduzir o estresse decorrente nas relaçoes com amigos, trabalho e sociedade. <br>
+                     Oferecemos também tratamento e diagnostico de disturbios psicopatologicos.
+                </p>
+            </div>
+    
+            <div class="topics">
+                <div class="container">
+                    <div class="card">
+                        <div class="imgbox" data-text="Mind">
+                            <img src="img/mind.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h3>Tratamento de disturbios psicopatologicos </h3>
+                                <p><span>Transtornos emocionais, comportamentais e Traumas</span> Abordagem desses disturbios na perspectiva da saude</p>
+         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgbox" data-text="Troubles">
+                            <img src="img/stress.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h3>Tratamento de transtornos Ansiedade</h3>
+                                <p>Tratamento de transtornos de bipolatidade e personalidade, <span>depressão e ansiedade.</span></p>
+         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgbox" data-text="Medical">
+                            <img src="img/Medical.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h3>Tratamento Medico</h3>
+                                <p>Uso do conhecimento da psicologia e psicopatologia para realizar diagnosticos </p>
+         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="help">
+                        <div class="imgbox" data-text="Help">
+                            <img src="img/helppng.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h3>Saiba <span>Mais</span></h3>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="sprove">
+            <div class="lema">
+                <h2>O Que os <span>N</span>ossos Clientes Dizem Sobre Nos</h2>
+                <p>"Exploramos a psicologia clinica e o aconselhamento psicologico trazendo soluçoes de sucesso"</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Manprove.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>
+                            A Healthit é uma instiuição  profissional excelente composta por otimos funcionarios  ! Os resultados do seu trabalho tem sido bastante significativos e relevantes para mim! Bastante explicativos, conseguindo ser bastante práticos e objetivos!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Girlprv.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>
+                            A Healthit é uma instiuição  profissional excelente composta por otimos funcionarios  ! Os resultados do seu trabalho tem sido bastante significativos e relevantes para mim! Bastante explicativos, conseguindo ser bastante práticos e objetivos!</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="temas">
+            <div class="titles">
+                <h3>Estamos Aqui Para Ajudar!</h3>
+                <h2>Temas Mais Presentes Nas Nossas Consultas</h2>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="icon">
+                        <img src="img/depressao (1).png" alt="imagem de um trauma">
+                    </div>
+                        <div class="content">
+                            <h3>Traumas Emocionais</h3>
+                            <p>Um dos temas que tem gerado muita dicussao nas consultas é o Trauma,
+                                Os traumas surgem quando a pessoa passa por uma situação muito ruim, de degradação moral ou de experiência negativa,
+                                cujas lembranças se transformam em angústia e dor.
+                                Mesmo com o passar do tempo, as sensações experimentadas ficam retidas na mente e, diante de qualquer sinal que relacione com esse fato traumático,
+                                a pessoa revive a angústia e o sofrimento.
+                            </p>
+                        </div>
+                     <a class="more"></a>
+                </div>
+         
+                <div class="card">
+                    <div class="icon">
+                        <img src="img/depressao.png" alt="imagem de uma depressao">
+                    </div>
+                        <div class="content">
+                            <h3>Depressão</h3>
+                            <p>Um tema que não é tido como algo serio na nossa sociedade mas, a depressao é uma doença psiquiátrica crônica e recorrente que produz uma alteração do humor caracterizada por uma tristeza profunda, sem fim, associada a sentimentos de dor, amargura, desencanto, desesperança, baixa autoestima e culpa, assim como a distúrbios do sono e do apetite.
+                                Nos quadros de depressão, a tristeza não dá tréguas, mesmo que não haja uma causa aparente. O humor permanece deprimido praticamente o tempo todo, por dias e dias seguidos. Desaparece o interesse pelas atividades que antes davam satisfação e praze
+                            </p>
+         
+                        </div>
+                        <a class="more"></a>
+                </div>
+         
+                <div class="card">
+                    <div class="icon">
+                        <img src="img/demencia.png" alt="">
+                    </div>
+                        <div class="content">
+                            <h3>Ansiedade, Desordem e Stress </h3>
+                            <p>A ansiedade, desordem e stress constituem um dos temas mais abordados nas nossas consultas essas tres particularidades podem trazer grandes consenquencias se nao forem cuidadas,
+                                Nos quadros de depressão, a tristeza não dá tréguas, mesmo que não haja uma causa aparente. O humor permanece deprimido praticamente o tempo todo, por dias e dias seguidos. Desaparece o interesse pelas atividades que antes davam satisfação e prazer
+                                Numa situação de stress, existe uma ameaça ou a perceção de uma ameaça em relação ao estado de equilíbrio do indivíduo, desencadeando-se um conjunto.
+                            </p>
+         
+                        </div>
+                    <a class="more"></a>
+         
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <img src="img/coracao-partido.png" alt="">
+                    </div>
+                        <div class="content">
+                            <h3>Relacionamentos Problematicos </h3>
+                            <p> Somos diariamente confrontados com queixas que incluem relatos de insultos, humilhações, falsas acusações, traições e outros abusos emocionais dentro da relação conjugal. Não me refiro apenas às pessoas que acompanho no consultório mas sobretudo aos inúmeros emails que recebo TODOS OS DIAS. São descrições mais ou menos exaustivas de um vasto conjunto de episódios que a maioria das pessoas rotularia de inadmissíveis.
+                                É fácil perceber que a maior parte destas pessoas encara o fim de uma relação como extremamente penoso. Na verdade, nunca é fácil terminar um relacionamento e é por isso que há tantas pessoas a eternizar relações amorosas mesmo quando já não há um vínculo romântico. Porque o fim é quase sempre doloroso. Porque envolve mágoas, perdas, sentimentos de culpa e de pena que podem corroer a estabilidade de qualquer um.
+                            </p>
+         
+                        </div>
+                    <a class="more"></a>
+         
+                </div>
+            </div>
+         </section>
+    <main>
+        <div class="add"></div>
+         <aside>
+         
+            <h2>Inicie Com Uma Consulta <span>Gra</span>tis!</h2>
+         
+            <p>Junte-se a famila Healthit iniciando com uma consulta gratis e deixe-nos ajudar-te em seus problemas. <br> Sempre Estaremos Contigo!. </p>
+            <a href="Form.html" style="--clr:#ff1867"><span>Marcar Consulta</span><i></i></a>
+         </aside>
+         <div class="add"></div>
+     </main>
+    <footer>
+            <div class="container">
+                <div class="sec aboutus">
+                    <h2>Sobre Nos</h2>
+                    <p> Somos uma clinica de aconselhamento psicologico, 
+                        proporcionamos soluções para reduzir o estresse decorrente nas relaçoes com amigos, trabalho e sociedade. 
+                    </p>
+                    <ul class="sci">
+                        <li><a href="#"><img src="img/1.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/2.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/3.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/5.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Links Rapidos</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>  
+                        <li><a href="#">Contact</a></li>
+                         
+                    </ul>
+                </div>
+              <div class="sec contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="img/location.png" alt=""></span>
+                        <span>Lorem ipsum, dolor sit amet consectetur <br> adipisicing.
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                    </li>
+                    <li>
+                        <span><img src="img/call.png" alt=""></span>
+                          <p><a href="tel:12345678900">+258 8500 60 000</a><br>
+                          <a href="tel:12345678900">+258 8348 84 488</a></p>
+                    </li>
+                    <li>
+                        <span><img src="img/mail.png" alt=""></span>
+                        <span><a href="malito: knowmore@gmail.com">Healthit991@gmail.com</a>
+                        </span>
+                    </li>
+    
+                </ul>
+    
+            </div>
+               
+    
+            </div>
+        
+    </footer>
+       
+        <div class="copyright">
+            <p>Copyright 2022 <strong>devKuro</strong> | Use Like You Want</p>
+       
+        </div>
+    
+
+     <script>
+        let more = document.querySelectorAll('.more');
+        for (let i = 0; i<more.length; i++){
+            more[i].addEventListener('click', function(){
+                more[i].parentNode.classList.toggle('active')
+            })
+        }
+        const menu = document.querySelector(".menu")
+          const close = document.querySelector(".close")
+          const nav = document.querySelector("nav")
+
+          menu.addEventListener('click', () =>{
+            nav.classList.add('open-nav')
+          })
+          close.addEventListener('click', () =>{
+            nav.classList.remove('open-nav')
+          })
+    </script>
+    
+</body>
+</html>
